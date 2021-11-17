@@ -1,0 +1,541 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.hero-section{
+    position: relative;
+    background: rgba(255, 165, 2, 0.5);
+    padding: 0 100px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+}
+.navbar-logo{
+    font-family: "Mulish",sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 135%;
+    color: #3C227C;
+    cursor: pointer;
+}
+.navbar-list ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.navbar-list li{
+    display: inline-block;
+    font-family: "Mulish",sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #373F41;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.navbar-assets{
+    position: relative;
+}
+.navbar-assets a{
+    text-decoration: none;
+    font-family: "Mulish",sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+.navbar-assets-sign-in{
+    color: #3C64B1;
+}
+.navbar-assets-sign-up{
+    padding: 12px 18px;
+    width: 91px;
+    height: 42px;
+    background: #F73C6B;
+    border-radius: 6px;
+    color: #FFF;
+    margin-left: 10px;
+}
+/************************** Hero Banner section start *********************************/
+.banner-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.banner-texr h2{
+    font-family: "Mulish",sans-serif;
+    font-size: 52px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #373F41;
+    margin-top: 100px;
+    padding: 0 100px 0 0;
+}
+.banner-texr p{
+    font-family: "Mulish",sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #737B7D;
+    margin-top: 100px;
+    padding-right: 150px;
+    transform: rotate(7.92deg);
+}
+.banner-section-btn-contact{
+    display: inline-block;
+    font-family: "Mulish",sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #F73C6B;
+    border: 1px solid #F73C6B;
+    padding: 7px 15px;
+    margin-top: 60px;
+}
+/* Section-02 CSS */
+.section-02{
+    position: relative;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 85px 100px;
+}
+.section-02-top-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section-02-left{
+    position: relative;
+}
+.cycle-content-1 {
+    margin-left: 4rem;
+    padding-right: 7%;
+    padding-bottom: 50%;
+}
+.section-02-left-text-01,
+.section-02-left-text-02,
+.section-02-left-text-03{
+    width: 588px;
+    box-shadow: 0px 12px 35px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 30px 25px;
+    margin-bottom: 15px;
+}
+.section-02-left-text-01{
+    background: #4F55DD;
+}
+.section-02-left-text-02,
+.section-02-left-text-03{
+    background: #FFFFFF;
+}
+.section-02-left-text-01 p,
+.section-02-left-text-02 p,
+.section-02-left-text-03 p{
+    font-family: "Mulish",sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+}
+.section-02-left-text-01 p{
+    color: #FFFFFF;
+}
+.section-02-left-text-02 p,
+.section-02-left-text-03 p{
+    color: #282828;
+}
+.section-02-right{
+    position: relative;
+    width: 484px;
+    height: 484px;
+}
+.section-02-right img{
+    position: absolute;
+    top: -45px;
+}
+/* Section-03 CSS */
+.section-03{
+    position: relative;
+    height: 307px;
+    background: rgba(46, 213, 115, 0.5);
+    padding: 50px 100px;
+}
+.section-03-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.section-03-container h1{
+    width: 435px;
+    height: 200px;
+    font-family: "Mulish",sans-serif;
+    font-size: 44px;
+    line-height: 56px;
+    color: #4F4F4F;
+}
+.section-03 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Section-04 CSS */
+.section-04{
+    position: relative;
+    padding: 100px 100px;
+}
+.section-04-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.section-04-left p,
+.section-04-right p{
+    height: 66px;
+    width: 255px;
+    font-family: "Mulish",sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #282828;
+}
+.section-04-container-02{
+    display: flex;
+    justify-content: space-between;
+}
+.section-04 img{
+    position: absolute;
+    top: -715px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+/* Section-05 CSS */
+.section-05{
+    position: relative;
+    padding: 0px 100px 100px 0;
+}
+.section-05-top-img{
+    position: absolute;
+    top: -50px;
+    right: 93px;
+}
+.section-05-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-05-container-text{
+    position: relative;
+    margin-top: 65px;
+}
+.section-05-container-text h6{
+    width: 445px;
+    height: 56px;
+    font-family: "Mulish",sans-serif;
+    font-size: 23px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #373F41;
+    margin-bottom: 15px;
+}
+.section-05-container-text h3{
+    width: 445px;
+    height: 112px;
+    font-family: "Mulish",sans-serif;
+    font-size: 52px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #373F41;
+    margin-bottom: 20px;
+}
+.section-05-container-text p{
+    width: 445px;
+    height: 88px;
+    font-family: "Mulish",sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    color: #737B7D;
+}
+/*Section-06 */
+.section-06{
+    padding: 150px 100px;
+    position: relative;
+    height: 453px;
+    background: rgba(255, 71, 87, 0.5);
+}
+.section-06-container{
+    position: relative;
+    font-family: "Mulish",sans-serif;
+    font-size: 37px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #4F4F4F;
+}
+.section-06-container img{
+    position: absolute;
+    top: -400px;
+    right: -100px;
+}
+.section-06-container h3{
+    width: 800px;
+    margin-bottom: 20px;
+}
+.section-06-container h4{
+    position: absolute;
+    top: -142px;
+    left: 375px;
+    font-family: "Mulish",sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #FFA3AB;
+    transform: rotate(16.95deg);
+}
+input[type=email]{
+    width: 322px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 11px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-family: "Mulish",sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737B7D;
+}
+input[type=button]{
+    width: 104px;
+    height: 42px;
+    background: #F73C6B;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-family: "Mulish",sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* Section-07 */
+.section-07{
+    position: relative;
+    padding: 100px 100px;
+}
+.section-07-top{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.section-07-top h1{
+    width: 560px;
+    font-family: "Mulish",sans-serif;
+    font-size: 52px;
+    line-height: 110%;
+    letter-spacing: -0.045em;
+    color: #23242A;
+    margin-bottom: 50px;
+}
+.section-07-top p{
+    font-family: "Mulish",sans-serif;
+    font-size: 21px;
+    line-height: 135%;
+    text-align: right;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+    color: #E5E5E5;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 0;
+}
+i.fa-angle-right{
+    margin-left: 10px;
+    color: blue;
+}
+.section-07-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.section-07-bottom-item-01,
+.section-07-bottom-item-02,
+.section-07-bottom-item-03{
+    width: 377.31px;
+    /* height: 327.71px; */
+    background: #FFFFFF;
+    box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
+    border-radius: 12px 12px 0px 0px;
+    padding: 40px;
+}
+.section-07-bottom-item-01 h3,
+.section-07-bottom-item-02 h3,
+.section-07-bottom-item-03 h3{
+    font-family: "Mulish",sans-serif;
+    font-size: 44px;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+    color: #23242A;
+    margin-bottom: 30px;
+}
+.section-07-bottom-item-01 p,
+.section-07-bottom-item-02 p,
+.section-07-bottom-item-03 p{
+    font-family: "Mulish",sans-serif;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #23242A;
+    margin-bottom: 50px;
+}
+
+.section-07-bottom-item-01-bottom,
+.section-07-bottom-item-02-bottom,
+.section-07-bottom-item-03-bottom{
+    width: 377.31px;
+    /* height: 69.04px; */
+    background: #FFD281;
+    box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
+    border-radius: 0px 0px 12px 12px;
+    font-family: "Mulish",sans-serif;
+    font-size: 21px;
+    line-height: 135%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+    padding: 10px 40px;
+}
+.section-07-bottom-item-02-bottom{
+    background: rgba(46, 213, 115, 0.5);
+}
+.section-07-bottom-item-03-bottom{
+    background: #FFA3AB;
+}
+/**Section-08 **/
+
+.section-08{
+    position: relative;
+    height: 561px;
+    background: rgba(46, 213, 115, 0.5);
+    padding: 50px 100px 100px 100px;
+}
+.section-08-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.section-08-container-item-01{
+    width: 400px;
+}
+.section-08-container-item-01 span{
+    font-family: "Mulish",sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+    color: #3C227C;
+}
+/* .section-08-container-item-02, */
+/* .section-08-container-item-03, */
+.section-08-container-item-04{
+    padding-right: 100px;
+    /* flex-grow: 2; */
+}
+.section-08-container-item-01,
+.section-08-container-item-02,
+.section-08-container-item-03,
+.section-08-container-item-04{
+    font-family: "Mulish",sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    color: #454646;
+}
+.section-08-container-item-02 ul,
+.section-08-container-item-03 ul,
+.section-08-container-item-04 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.section-08-container-item-01 span,
+.section-08-container-item-02 span,
+.section-08-container-item-03 span,
+.section-08-container-item-04 span{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.section-08-middle-city-name{
+    font-family: "Mulish",sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-top: 20px;
+    text-align: right;
+    border-bottom: 1px solid black;
+}
+.section-08-middle-city-name ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.section-08-middle-city-name ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.card-name{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom span{
+    font-family: "Mulish",sans-serif;
+    font-size: 18px;
+    line-height: 135%;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    color: #494949;
+    opacity: 0.5;
+}
+.footer-bottom p{
+    font-family: "Mulish",sans-serif;
+    font-size: 18px;
+    line-height: 135%;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.01em;
+    color: #494949;
+    padding-right: 70px;
+}
+.doodle{
+    position: absolute;
+    top: -67px;
+    right: 44px;
+}
+.doodle-02{
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+}
+.doodle-03{
+    position: absolute;
+    bottom: 30px;
+    right: 38px;
+}
